@@ -2,8 +2,6 @@
 
 Agent skills I wrote for Claude Code — my own dev loop, shipped.
 
-Structure follows [thananon/9arm-skills](https://github.com/thananon/9arm-skills).
-
 ## Layout
 
 Skills live under `skills/`, grouped into buckets:
