@@ -43,7 +43,7 @@ List every `SKILL.md` in the repo:
 
 ### Productivity
 
-_(none yet)_
+- **[req-gathering](./skills/productivity/req-gathering/SKILL.md)** — Full requirement-gathering workflow for any project: bootstrap an Airtable requirement tracker, turn Fireflies meeting transcripts into tracked requirements + open questions (with dedup and conflict detection), and generate a functional spec from the tracker. The tracker is the single source of truth; documents are generated, never hand-edited. Per-project repo scaffold available at [req-harness-template](https://github.com/anothermix/req-harness-template).
 
 ## Skills I use (authored elsewhere)
 
