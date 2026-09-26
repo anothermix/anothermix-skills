@@ -20,9 +20,9 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter �
 npx skills add anothermix/anothermix-skills
 ```
 
-### Alternative — symlink into Claude Code
+### Alternative — symlink into Claude Code and Codex
 
-Symlink every skill into `~/.claude/skills/`:
+Symlink every skill into `~/.claude/skills/` (Claude Code) and `~/.agents/skills/` (Codex). Edits in this repo show up in both immediately:
 
 ```bash
 ./scripts/link-skills.sh
@@ -45,12 +45,13 @@ List every `SKILL.md` in the repo:
 
 - **[req-gathering](./skills/productivity/req-gathering/SKILL.md)** — Full requirement-gathering workflow for any project: bootstrap an Airtable requirement tracker, turn Fireflies meeting transcripts into tracked requirements + open questions (with dedup and conflict detection), and generate a functional spec from the tracker. The tracker is the single source of truth; documents are generated, never hand-edited. Per-project repo scaffold available at [req-harness-template](https://github.com/anothermix/req-harness-template).
 
-## Skills I use (authored elsewhere)
+## Adapted from elsewhere
 
-Not redistributed here — installed from their original sources:
+Copied here so every agent on my machines reads from one place. Credit and license stay with the original authors:
 
-- **[debug-mantra](https://github.com/thananon/9arm-skills/blob/main/skills/engineering/debug-mantra/SKILL.md)** and **[scrutinize](https://github.com/thananon/9arm-skills/blob/main/skills/engineering/scrutinize/SKILL.md)** — from [thananon/9arm-skills](https://github.com/thananon/9arm-skills)
-- **[karpathy-guidelines](https://github.com/forrestchang/andrej-karpathy-skills)** — behavioral guidelines to reduce common LLM coding mistakes
+- **[debug-mantra](./skills/engineering/debug-mantra/SKILL.md)** and **[scrutinize](./skills/engineering/scrutinize/SKILL.md)** — from [thananon/9arm-skills](https://github.com/thananon/9arm-skills)
+- **[pr](./skills/engineering/pr/SKILL.md)** — adapted from `show-me` by Dex Horthy, [humanlayer/skills](https://github.com/humanlayer/skills)
+- **[karpathy-guidelines](https://github.com/forrestchang/andrej-karpathy-skills)** — installed as a plugin, not copied
 
 ## License
 
