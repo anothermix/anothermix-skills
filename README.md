@@ -51,6 +51,7 @@ Copied here so every agent on my machines reads from one place. Credit and licen
 
 - **[debug-mantra](./skills/engineering/debug-mantra/SKILL.md)** and **[scrutinize](./skills/engineering/scrutinize/SKILL.md)** — from [thananon/9arm-skills](https://github.com/thananon/9arm-skills)
 - **[pr](./skills/engineering/pr/SKILL.md)** — adapted from `show-me` by Dex Horthy, [humanlayer/skills](https://github.com/humanlayer/skills)
+- **[pr-lens](./skills/engineering/pr-lens/SKILL.md)** — from [coldteadotai/pr-lens](https://github.com/coldteadotai/pr-lens) ([prlens.dev](https://prlens.dev/)); a discovery stub that loads its workflow from `npx @coldtea/pr-lens-cli@latest skill`
 - **[karpathy-guidelines](https://github.com/forrestchang/andrej-karpathy-skills)** — installed as a plugin, not copied
 
 ## License
